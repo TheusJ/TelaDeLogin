@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Aula CSS</title>
+  <style>
+    *{
+      box-sizing:border-box;
+    }
+    .aula{
+      text-align:center;
+      background-color:black;
+      color:white;
+      
+    }
+    body{
+      background:gray;
+      margin:0;
+    }
+    div{
+      text-align:center;
+      border:1px solid black;
+      margin:60px auto;
+    }
+    #login{
+      font-family:arial;
+      
+    }
+    #tela{
+      background:black;
+      color:white;
+      border-radius:40px;
+      margin-left:50px;
+      margin-right:50px;
+      box-shadow:2px 2px 9px 0px;
+    }
+    #teste{
+      background:black;
+      color:white;
+    }
+    #registros{
+      text-decoration:none;
+      color:blue;
+      margin-left:150px;
+      
+    }
+    #botao{
+      background-color:green;
+      border:1px solid black;
+      border-radius:10px;
+    }
+    #botao-limpar{
+      border:1px solid black;
+      border-radius:10px;
+      background-color:red;
+      margin-bottom:10px;
+    }
+    #botao:hover{
+      background-color:blue;
+    }
+    .label{
+      
+    }
+  </style>
+</head>
+
+<body>
+  <div id="teste"><h1>TELA DE LOGIN</h1>
+  </div>
+  <!-- AQUI COMEÇA A TELA DE LOGIN -->
+  <div id="tela">
+    <h2>INÍCIO</h2>
+      <form>
+        <label class="label"  for="login"<b>Login</label>
+        <input id="login" type="text" content="formulario" placeholder="Digite seu login" required><br><br>
+        
+        <label class="label"for="senha-login"<b>Senha</label>
+        <input id="senha-login"type="password" content="senha" placeholder="Digite a sua Senha" required><br>
+        
+        <a id="registros" href="registro.html">Registre-se</a><br<br>
+        
+        <button id="botao"type="submit"<b>ENVIAR</button>
+        <button id="botao-limpar"type="reset"<b>LIMPAR</button>
+        
+    </form>
+  </div>
+  <!-- AQUI TERMINA A TELA DE LOGIN -->
+</body>
+
+</html>
